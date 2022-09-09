@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: #1d2126;
+}
+.logo {
+    background-color: #1d2126;
+}
+.logo img {
+    display: flex;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.dws-menu {
+    overflow-x: auto;
+}
+.dws-menu ul,
+.dws-menu ol {
+    list-style: none;
+}
+.dws-menu > ul{
+    display: flex;
+    justify-content: center;
+    width: 615px;
+    margin: 0 auto;
+}
+.dws-menu > ul li {
+    background: #1d2126;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.dws-menu > ul li .else-menu{
+    display: block;
+    font-size: 14px;
+    color: #a4aead;
+    text-decoration: none;
+    padding: 7px 10px 7px 10px;
+    border: 1px solid transparent;
+}
+.dws-menu > ul li a:hover {
+    border: 1px solid #a4aead;
+    border-radius: 5px;
+}
+.dws-menu > ul li .home-menu{
+    color: rgb(0, 255, 255, 0.5);
+    display: block;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 7px 10px 7px 10px;
+    border: 1px solid rgb(0, 255, 255, 0.25);
+    border-radius: 5px;
+}
